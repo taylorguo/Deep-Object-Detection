@@ -31,7 +31,7 @@
 
 2015
 
-- [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
+- FCN [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
