@@ -62,6 +62,40 @@ Not sure every dataset includes annotation. Suppose application should handle th
     - resolution: about 320x240 pixels
 
 
+[VGG - 17 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html)
+
+- Context
+
+    - 17 category flower dataset with 80 images for each class
+    - 80 images for each category
+    
+
+- Content
+
+    - The datasplits used in this paper are specified in datasplits.mat
+
+    - There are 3 separate splits. The results in the paper are averaged over the 3 splits.
+    
+    - Each split has a training file (trn1,trn2,trn3), a validation file (val1, val2, val3) and a testfile (tst1, tst2 or tst3). 
+
+
+[VGG - 102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
+
+- Context
+
+    - 102 category dataset, consisting of 102 flower categories
+    - Each class consists of between 40 and 258 images
+    
+
+- Content
+
+    - The datasplits used in this paper are specified in setid.mat.
+
+    - The results in the paper are produced on a 103 category database. - - The two categories labeled Petunia have since been merged since they are the same.
+    - There is a training file (trnid), a validation file (valid) and a testfile (tstid).
+
+
+
 [Fruits 360 dataset : A dataset with 65429 images of 95 fruits](https://www.kaggle.com/moltean/fruits)
 
 - Context
