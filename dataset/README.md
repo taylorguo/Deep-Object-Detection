@@ -10,11 +10,11 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 
 - Context
-<font>
+
     The Stanford Dogs dataset contains images of 120 breeds of dogs from around the world. This dataset has been built using images and annotation from ImageNet for the task of fine-grained image categorization. It was originally collected for fine-grain image categorization, a challenging problem as certain dog breeds have near identical features or differ in colour and age.
 
     来源于imagenet, 用于图像细粒度分类
-</font>
+
 
 - Content
 
