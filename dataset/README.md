@@ -75,7 +75,7 @@ Not sure every dataset includes annotation. Suppose application should handle th
     - The datasplits used in this paper are specified in datasplits.mat
 
     - There are 3 separate splits. The results in the paper are averaged over the 3 splits.
-    
+
     - Each split has a training file (trn1,trn2,trn3), a validation file (val1, val2, val3) and a testfile (tst1, tst2 or tst3). 
 
 
@@ -114,6 +114,34 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 
 - [GitHub download: Fruits-360 dataset](https://github.com/Horea94/Fruit-Images-Dataset)
+
+
+
+[Plant Seedlings Classification : Determine the species of a seedling from an image](https://www.kaggle.com/c/plant-seedlings-classification)
+
+- Context
+
+    - a dataset containing images of approximately 960 unique plants belonging to 12 species at several growth stages
+
+- Content
+
+    - [A Public Image Database for Benchmark of Plant Seedling Classification Algorithms](https://arxiv.org/abs/1711.05458)
+
+
+[V2 Plant Seedlings Dataset : Images of crop and weed seedlings at different growth stages](https://www.kaggle.com/vbookshelf/v2-plant-seedlings-dataset)
+
+
+- Context
+    - The V1 version of this dataset was used in the Plant Seedling Classification playground competition here on Kaggle. This is the V2 version. Some samples in V1 contained multiple plants. The dataset’s creators have now removed those samples.
+
+- Content
+
+    - This dataset contains 5,539 images of crop and weed seedlings. 
+    - The images are grouped into 12 classes as shown in the above pictures. These classes represent common plant species in Danish agriculture. Each class contains rgb images that show plants at different growth stages. 
+    - The images are in various sizes and are in png format.
+
+
+
 
 
 ## Food
