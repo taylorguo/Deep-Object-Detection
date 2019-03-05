@@ -18,6 +18,10 @@
 - RCNN [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
     - region proposal with scale-normalized before classifying with a ConvNet
 
+- SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
+
+
+
 
 2016
 
