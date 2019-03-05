@@ -10,6 +10,14 @@
 
 
 
+### Single Mode Object Detection
+
+
+2016
+
+- [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) - ECCV
+
+
 
 ### Multi-scale Object Detection
 
@@ -19,6 +27,16 @@
     - region proposal with scale-normalized before classifying with a ConvNet
 
 - SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
+
+
+2015
+
+- [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
+
+- [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
+
+- [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
+
 
 
 
