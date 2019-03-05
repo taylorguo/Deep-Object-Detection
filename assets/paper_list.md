@@ -35,7 +35,7 @@
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
-- [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
+- RPN(Region Proposal Network) & [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
 
 
 
