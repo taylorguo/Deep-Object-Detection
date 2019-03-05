@@ -6,7 +6,7 @@ Not sure every dataset includes annotation. Suppose application should handle th
 ## Animal
 
 
-[Stanford Dogs Dataset : Over 20,000 images of 120 dog breeds](https://www.kaggle.com/jessicali9530/stanford-dogs-dataset)
+[Stanford Dogs 🐶 Dataset : Over 20,000 images of 120 dog breeds](https://www.kaggle.com/jessicali9530/stanford-dogs-dataset)
 
 
 - Context
@@ -23,6 +23,28 @@ Not sure every dataset includes annotation. Suppose application should handle th
     - Annotations: Class labels, Bounding boxes
 
 
+[Honey Bee pollen : High resolution images of individual bees on the ramp](https://www.kaggle.com/ivanfel/honey-bee-pollen)
+
+- Context
+
+    This image dataset has been created from videos captured at the entrance of a bee colony in June 2017 at the Bee facility of the Gurabo Agricultural Experimental Station of the University of Puerto Rico.
+    
+    识别 蜜蜂 🐝 授粉 或者 未授粉
+
+- Content
+
+    - images/ contains images for pollen bearing and no pollen bearing honey bees.
+
+        - The prefix of the images names define their class: e.g. NP1268-15r.jpg for non-pollen and P7797-103r.jpg for pollen bearing bees. 
+        - The numbers correspond to frame and item number respectively, you need to be careful that they are not numbered sequentially.
+
+
+
+    - Read-skimage.ipynb Jupyter notebook for simple script to load the data and create the dataset using skimage library.
+
+
+
+
 ## Plant
 
 [Flowers Recognition : This dataset contains labeled 4242 images of flowers.](https://www.kaggle.com/alxmamaev/flowers-recognition)
@@ -30,6 +52,8 @@ Not sure every dataset includes annotation. Suppose application should handle th
 - Context
 
     This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo.
+
+    
 
 - Content
 
@@ -64,13 +88,44 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 
 
+
 ## Transportation
+
+
+[Boat types recognition : About 1,500 pictures of boats classified in 9 categories](https://www.kaggle.com/clorichel/boat-types-recognition)
+
+- Context
+
+    This dataset is used on this blog post https://clorichel.com/blog/2018/11/10/machine-learning-and-object-detection/ where you'll train an image recognition model with TensorFlow to find about anything on pictures and videos.
+
+    
+
+- Content
+
+    1,500 pictures of boats, of various sizes, but classified by those different types: buoy, cruise ship, ferry boat, freight boat, gondola, inflatable boat, kayak, paper boat, sailboat.
 
 
 
 
 
 ## Scene
+
+
+[Intel Image Classification : Image Scene Classification of Multiclass](https://www.kaggle.com/puneet6060/intel-image-classification)
+
+- Context
+
+    image data of Natural Scenes around the world
+
+    
+
+- Content
+
+    - This Data contains around 25k images of size 150x150 distributed under 6 categories. {'buildings' -> 0, 'forest' -> 1, 'glacier' -> 2, 'mountain' -> 3, 'sea' -> 4, 'street' -> 5 }
+
+    - The Train, Test and Prediction data is separated in each zip files. There are around 14k images in Train, 3k in Test and 7k in Prediction. This data was initially published on https://datahack.analyticsvidhya.com by Intel to host a Image classification Challenge.
+
+
 
 
 
