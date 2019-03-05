@@ -35,7 +35,7 @@
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
-- RPN(Region Proposal Network) & [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
+- RPN(Region Proposal Network) & Anchor Box & [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
 
 
 
@@ -43,9 +43,13 @@
 
 2016
 
+- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) - CVPR
+
+
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
 
     - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
     想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
 
-    - 
+    - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
+    每阶段的最深的一层应该有最强的特征
