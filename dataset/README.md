@@ -84,10 +84,24 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 ## Food
 
+[UEC Food-256 Japan Food](http://foodcam.mobi/dataset256.html)
+
+- Context
+
+    - The dataset "UEC FOOD 256" contains 256-kind food photos. Each food photo has a bounding box indicating the location of the food item in the photo. 
+
+    - Most of the food categories in this dataset are popular foods in Japan and other countries. 
 
 
+- Content 
 
+    - [1-256] : directory names correspond to food ID.
+    - [1-256]/*.jpg : food photo files (some photos are duplicated in two or more directories, since they includes two or more food items.)
+    - [1-256]/bb_info.txt: bounding box information for the photo files in each directory
 
+    - category.txt : food list including the correspondences between food IDs and food names in English
+    - category_ja.txt : food list including the correspondences between food IDs and food names in Japanese
+    - multiple_food.txt: the list representing food photos including two or more food items
 
 ## Transportation
 
