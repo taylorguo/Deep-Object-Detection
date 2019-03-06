@@ -10,16 +10,43 @@
 
 
 
-### Single Mode Object Detection
+### Single Stage Object Detection
+
+
 
 
 2016
 
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) - ECCV
 
+- YOLOv2 [YOLO9000: Better, Faster, Stronger](https://arxiv.org/pdf/1612.08242.pdf)
+
+2018
+
+- [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
+
+    - bbox 预测使用尺寸聚类
+
+        - 每个box有4个坐标
+
+        - 训练时, 使用误差平方和损失函数 sum of squared error loss
+
+        - bbox object分值, 用 logistic regression
+
+        - 分类器 使用 logistic regression, 损失函数binary cross-entropy
+
+    - 借鉴了 FPN 网络
+
+    - 特征提取卷积网络
+
+        - 3x3, 1x1 卷积层交替
+
+        - 借鉴了 ResNet, 使用了直连, 分别从卷积层或直连层进行直连
 
 
-### Multi-scale Object Detection
+
+
+### Multi-stage Object Detection
 
 2014
 
