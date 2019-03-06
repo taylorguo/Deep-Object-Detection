@@ -54,7 +54,9 @@
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
 
     - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
+
     想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
 
     - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
+    
     每阶段的最深的一层应该有最强的特征
