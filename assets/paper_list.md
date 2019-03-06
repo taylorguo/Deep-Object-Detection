@@ -42,7 +42,7 @@ Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching
 
 - RPN(Region Proposal Network) & Anchor Box & [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
 
-- Faster RCNN Object Search [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
+- 修改Faster RCNN 做物体检索 Faster RCNN Object Search [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
 
 
 
