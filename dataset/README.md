@@ -165,6 +165,13 @@ Not sure every dataset includes annotation. Suppose application should handle th
     - category_ja.txt : food list including the correspondences between food IDs and food names in Japanese
     - multiple_food.txt: the list representing food photos including two or more food items
 
+[FoodDD: Food Detection Dataset](http://www.site.uottawa.ca/~shervin/food/)
+
+[NutriNet: A Deep Learning Food and Drink Image Recognition System for Dietary Assessment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5537777/)
+
+[ChineseFoodNet: A large-scale Image Dataset for Chinese Food Recognition](https://arxiv.org/pdf/1705.02743.pdf)
+
+
 ## Transportation
 
 
