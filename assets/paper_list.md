@@ -72,7 +72,7 @@
 
     - 实验表明: 加深网络, 会出现训练误差
 
-- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) - CVPR
 
     - 残差网络中 Shortcut Connection 参考文章
 
@@ -92,7 +92,6 @@
 
 2016
 
-- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) - CVPR
 
 
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
