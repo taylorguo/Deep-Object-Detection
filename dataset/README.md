@@ -2,6 +2,16 @@
 
 Not sure every dataset includes annotation. Suppose application should handle these.
 
+## General Dataset
+
+[25种简介](https://www.easemob.com/news/1433)
+
+[Open Images dataset](https://github.com/openimages/dataset)
+
+    - 近900万个图像URL数据集, 图像跨越了数千个类的图像级标签边框并且进行了标注。数据集包含9,011,219张图像的训练集, 41,260张图像的验证集, 125,436张图像的测试集。
+
+
+
 
 ## Animal
 
