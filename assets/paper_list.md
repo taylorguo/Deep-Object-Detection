@@ -48,6 +48,9 @@
 
 ### Multi-stage Object Detection
 
+
+
+
 2014
 
 - RCNN 
@@ -62,6 +65,20 @@
 
 
 2015
+
+- [Highway Networks](https://arxiv.org/pdf/1505.00387v2.pdf), [中文翻译参考](https://www.cnblogs.com/2008nmj/p/9104744.html)
+
+- [Convolutional Neural Networks at Constrained Time Cost](https://arxiv.org/pdf/1412.1710.pdf)
+
+    - 实验表明: 加深网络, 会出现训练误差
+
+- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+
+    - 残差网络中 Shortcut Connection 参考文章
+
+        - 1995 - [Neural networks for pattern recognition - Bishop]()
+        - 1996 - [Pattern recognition and neural networks - Ripley]()
+        - 1999 - [Modern applied statistics with s-plus - Venables & Ripley]()
 
 - FCN [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
 
