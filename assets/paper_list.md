@@ -80,7 +80,7 @@
         - 1996 - [Pattern recognition and neural networks - Ripley]()
         - 1999 - [Modern applied statistics with s-plus - Venables & Ripley]()
 
-- FCN [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
+- FCN -[Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
@@ -99,8 +99,8 @@
 
     - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
 
-    想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
+        想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
 
     - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
     
-    每阶段的最深的一层应该有最强的特征
+        每阶段的最深的一层应该有最强的特征
