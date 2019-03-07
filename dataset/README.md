@@ -205,9 +205,10 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 
 
-```
-cd ./models
-```
+
+## Face 
+
+[CelebFaces Attributes (CelebA) Dataset : Over 200K images of celebrities with 40 binary attribute annotations](https://www.kaggle.com/jessicali9530/celeba-dataset/version/2)
 
 
 
