@@ -15,7 +15,9 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 [Open Images dataset](https://github.com/openimages/dataset)
 
-    - 近900万个图像URL数据集, 数千个类的图像级标签边框并且进行了标注。数据集包含9,011,219张图像的训练集, 41,260张图像的验证集, 125,436张图像的测试集。
+    - 近900万个图像URL数据集, 数千个类的图像级标签边框并且进行了标注。
+    
+    - 数据集包含9,011,219张图像的训练集, 41,260张图像的验证集, 125,436张图像的测试集。
 
 [Corel5K 图像集](https://github.com/watersink/Corel5K)
 
