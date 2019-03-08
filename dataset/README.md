@@ -201,8 +201,10 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
     - Content 
     
-        -  27,638 recipes in total. Each recipe contains one recipe image, the ingredients, the cuisine and the course information.     
-        - There are 16 kinds of cuisines (e.g,“American”,“Italian” and “Mexican”) and 13 kinds of recipe courses (e.g, “Main Dishes”,“Desserts” and “Lunch and Snacks”).
+        - 27,638 recipes in total. 
+        - Each recipe contains one recipe image, the ingredients, the cuisine and the course information.     
+        - There are 16 kinds of cuisines (e.g,“American”,“Italian” and “Mexican”) 
+        - and 13 kinds of recipe courses (e.g, “Main Dishes”,“Desserts” and “Lunch and Snacks”).
 
 [VireoFood-172 dataset](http://vireo.cs.cityu.edu.hk/vireofood172/),   [论文-2016](http://vireo.cs.cityu.edu.hk/jingjing/papers/chen2016deep.pdf)
 
