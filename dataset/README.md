@@ -197,7 +197,13 @@ Not sure every dataset includes annotation. Suppose application should handle th
 
 [ChineseFoodNet: A large-scale Image Dataset for Chinese Food Recognition - 2017](https://arxiv.org/pdf/1705.02743.pdf)
 
+[Yummly-28K - 2017](http://isia.ict.ac.cn/dataset/)
+
 [VireoFood-172 dataset](http://vireo.cs.cityu.edu.hk/vireofood172/),   [论文-2016](http://vireo.cs.cityu.edu.hk/jingjing/papers/chen2016deep.pdf)
+
+[Dishes: a restaurant-oriented food dataset - 2015](http://isia.ict.ac.cn/dataset/Geolocation-food/)
+
+
 
 
 ## Transportation
