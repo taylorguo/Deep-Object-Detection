@@ -1,5 +1,12 @@
 ## Paper List
 
+2010
+
+- [Object Detection with Discriminatively Trained Part Based Models](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
+
+2011
+
+- [Ensemble of Exemplar-SVMs for Object Detection and Beyond](http://www.cs.cmu.edu/~efros/exemplarsvm-iccv11.pdf)
 
 
 2013 
