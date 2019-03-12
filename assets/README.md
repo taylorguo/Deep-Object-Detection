@@ -102,7 +102,7 @@
     - 损失函数:
 
         - 2部分组成: 边界框回归 和 分类条件概率 - 都采用平方差的和
-             <img src="./block_diagram/yolo-responsible-predictor.png" >
+             <img src="./block_diagram/yolo-responsible-predictor.png"  width="300">
 
 
 2017
