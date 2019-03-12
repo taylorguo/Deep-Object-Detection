@@ -101,6 +101,24 @@
         - 2部分组成: 边界框回归 和 分类条件概率 - 都采用平方差的和
              <img src="./block_diagram/yolo-responsible-predictor.png" >
 
+
+2017
+
+- RetinaNet:[Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
+
+    - 工作流程:
+
+        - 焦点损失为明显的,容易错误分类的情况(具有噪声纹理或部分对象的背景)分配更多权重，并且降低简单情况权重(明显空白背景)
+        
+        - 特征提取网络为ResNet, 特征金字塔提高检测性能
+            <img src="./block_diagram/featurized-image-pyramid.png" >
+
+    - 网络架构:
+        <img src="./block_diagram/retina-net.png" >
+
+    
+
+
 2018
 
 - [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
