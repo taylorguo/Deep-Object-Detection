@@ -61,7 +61,7 @@
 - [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
 
 
-=================================
+============================
 ### Single Stage Object Detection
 
 
@@ -146,7 +146,7 @@
 
 
 
-================================
+===========================
 ### Multi-stage Object Detection
 
 
