@@ -1,5 +1,7 @@
 ## Reading List
 
+### General Information
+
 - [cs231n : Spatial Localization and Detection](http://cs231n.stanford.edu/slides/2016/winter1516_lecture8.pdf)
 
 
@@ -59,6 +61,7 @@
 - [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
 
 
+=================================
 ### Single Stage Object Detection
 
 
@@ -143,7 +146,7 @@
 
 
 
-
+================================
 ### Multi-stage Object Detection
 
 
