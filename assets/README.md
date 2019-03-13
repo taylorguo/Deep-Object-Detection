@@ -35,6 +35,8 @@
 
 - [VGG]()
 
+- SPP: [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf)
+
 
 2015
 
@@ -122,7 +124,7 @@
             <img src="./block_diagram/featurized-image-pyramid.png" width="600">
 
     - 网络架构:
-    
+
         <img src="./block_diagram/retina-net.png" width="600">
 
     
