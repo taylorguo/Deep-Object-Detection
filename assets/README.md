@@ -76,11 +76,13 @@
         - 特征提取网络为VGG-16, 边界框 和 分类 为特征图金字塔
     
     - 网络架构: 
-        <img src="./block_diagram/SSD-architecture.png" >
+
+        <img src="./block_diagram/SSD-architecture.png" width="600">
 
     - 损失函数:
 
         - 位置Smooth L1 Loss 和 多分类Softmax 的和
+
              <img src="./block_diagram/SSD-framework.png" width="600">
 
 
@@ -97,6 +99,7 @@
         - 修改预训练的CNN的最后一层以输出预测张量
     
     - 网络架构:
+
         <img src="./block_diagram/yolo-network-architecture.png" width="600">
 
     - 损失函数:
@@ -115,9 +118,11 @@
         - 焦点损失为明显的,容易错误分类的情况(具有噪声纹理或部分对象的背景)分配更多权重，并且降低简单情况权重(明显空白背景)
         
         - 特征提取网络为ResNet, 特征金字塔提高检测性能
+
             <img src="./block_diagram/featurized-image-pyramid.png" width="600">
 
     - 网络架构:
+    
         <img src="./block_diagram/retina-net.png" width="600">
 
     
