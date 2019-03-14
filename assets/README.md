@@ -63,6 +63,11 @@
 - [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
 
 
+- [Progressive Neural Architecture Search](https://arxiv.org/pdf/1712.00559.pdf)
+
+
+
+
 ============================
 ### Single Stage Object Detection
 
