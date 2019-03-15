@@ -72,7 +72,9 @@
 ### Single Stage Object Detection
 
 
+2015
 
+- [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 
 2016
 
