@@ -26,8 +26,6 @@ class LeNet:
 	def build(channels, height, width, classes, activation="relu", weights_path=None):
 
 		input_shape = (height, width, channels)
-		# if K.image_data_format() == "channels_first":
-		# 	input_shape = (channels, height, width)
 
 		model = Sequential()
 
@@ -69,9 +67,8 @@ class LeNet:
 	def train(weight_path=None, load_weights=False, save_weights=True):
 		print("\t Compiling the model ...")
 
-		optimizer = SGD(lr=0.01)
 		model = LeNet.build(channels=1, height=28, width=28, classes=10)
-		model.compile(loss="categorical_crossentropy", optimizer=optimizer, metrics=["accuracy"])
+		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.01), metrics=["accuracy"])
 
 		((train_d, train_l),(test_d, test_l)) = LeNet.load_dataset_mnist()
 

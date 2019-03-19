@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lenet_keras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lenet_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenet_keras.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1911" />
+          <entry key="py" value="1912" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1911" />
+          <entry key="Python" value="1912" />
         </counts>
       </usages-collector>
     </session>
@@ -45,11 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lenet_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="228">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="e#316#351#0" expanded="true" />
-                <marker date="1552985924177" expanded="true" signature="612:614" ph="..." />
+                <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,8 +84,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="y" value="181" />
+    <option name="x" value="143" />
+    <option name="y" value="62" />
     <option name="width" value="1440" />
     <option name="height" value="836" />
   </component>
@@ -95,7 +95,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -132,7 +142,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="181" width="1440" height="836" extended-state="0" />
+    <frame x="143" y="62" width="1440" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -188,11 +198,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenet_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="228">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="e#316#351#0" expanded="true" />
-            <marker date="1552985924177" expanded="true" signature="612:614" ph="..." />
+            <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
           </folding>
         </state>
       </provider>
