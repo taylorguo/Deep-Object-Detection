@@ -3,7 +3,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
 
 ## 主要的网络架构
 
-<img src="./assets/block_diagram/lenet_alexnet.png", width="600">
+<img src="./assets/block_diagram/lenet_alexnet.png" width="600">
 
 ### 代码实现
 
@@ -11,4 +11,4 @@ Inspired by awesome object detection, deep object detection does a easy way for 
 
 LeNet-Keras restructure
 
-<img src="./assets/code_diagram/lenet_revised.png">
+<img src="./assets/code_diagram/lenet_revised.png" width="400">
