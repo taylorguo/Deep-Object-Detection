@@ -11,6 +11,8 @@ opencv-python          3.4.1.15
 paper: (http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 '''
 
+# LeNet-Keras for mnist handwriting digital image classification
+
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Activation, Flatten, Dense
 from keras import backend as K

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="" />
+    <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lenet_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenet_keras.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1912" />
+          <entry key="py" value="1987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1912" />
+          <entry key="Python" value="1987" />
         </counts>
       </usages-collector>
     </session>
@@ -43,11 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lenet_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+            <state relative-caret-position="195">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
               <folding>
                 <element signature="e#316#351#0" expanded="true" />
-                <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
+                <marker date="1552987231949" expanded="true" signature="678:680" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +84,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="62" />
+    <option name="x" value="120" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="836" />
   </component>
@@ -140,11 +142,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="62" width="1440" height="836" extended-state="0" />
+    <frame x="120" y="23" width="1440" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -196,11 +198,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenet_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        <state relative-caret-position="195">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
           <folding>
             <element signature="e#316#351#0" expanded="true" />
-            <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
+            <marker date="1552987231949" expanded="true" signature="678:680" ph="..." />
           </folding>
         </state>
       </provider>
