@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="" />
+    <list default="true" id="97e21159-60c3-45e7-a5a3-8f82bf0c074d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sample-code/network/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-code/network/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,32 +11,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-717729998">
+    <session id="-1198809409">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="2090" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="2090" />
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -42,39 +33,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lenet_keras.py">
+        <entry file="file://$PROJECT_DIR$/sample-code/network/lenet_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-              <folding>
-                <element signature="e#316#351#0" expanded="true" />
-                <marker date="1552987928340" expanded="true" signature="719:721" ph="..." />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/lenet_keras.py" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lenet_keras.py" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/sample-code/network/lenet_keras.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -83,12 +56,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="836" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -98,13 +69,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="Deep-Object-Detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Object-Detection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Object-Detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Object-Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="sample-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Object-Detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Object-Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="sample-code" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -118,7 +95,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,16 +114,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="" />
-      <created>1552975483740</created>
+      <changelist id="97e21159-60c3-45e7-a5a3-8f82bf0c074d" name="Default Changelist" comment="" />
+      <created>1552988266763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552975483740</updated>
+      <updated>1552988266763</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="23" width="1440" height="836" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="836" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -178,35 +156,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/envs/keras_flask/lib/python3.6/site-packages/numpy/lib/npyio.py">
+    <entry file="file://$PROJECT_DIR$/sample-code/network/lenet_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1899">
-          <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/keras_flask/lib/python3.6/site-packages/keras/backend/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/keras_flask/lib/python3.6/site-packages/keras/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lenet_keras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-          <folding>
-            <element signature="e#316#351#0" expanded="true" />
-            <marker date="1552987928340" expanded="true" signature="719:721" ph="..." />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
