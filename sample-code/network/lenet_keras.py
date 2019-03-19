@@ -1,3 +1,5 @@
+# Author: Taylor Guo, taylorguo@126.com
+
 '''
 Keras                  2.1.0
 Keras-Applications     1.0.7
@@ -67,12 +69,11 @@ class LeNet:
 
 	@staticmethod
 	def train(weight_path=None, load_weights=False, save_weights=True):
-		print("\t Compiling the model ...")
 
 		model = LeNet.build(channels=1, height=28, width=28, classes=10)
 		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.01), metrics=["accuracy"])
 
-		((train_d, train_l),(test_d, test_l)) = LeNet.load_dataset_mnist()
+		(train_d, train_l),(test_d, test_l) = LeNet.load_dataset_mnist()
 
 		if load_weights==False:
 			print("\t Start training ...")
@@ -82,6 +83,9 @@ class LeNet:
 			(loss, accuracy) = model.evaluate(test_d, test_l, batch_size=128, verbose=1)
 
 			print("\t Accuracy: {:.2f}%".format(accuracy*100))
+		else:
+			pass
+			# load_weights from weight_path
 
 		if save_weights==True:
 			print("\t Save trained weights to file ...")
@@ -90,7 +94,11 @@ class LeNet:
 			weight_file = "LeNet_{:%Y%m%dT%H%M%S}.h5".format(datetime.datetime.now())
 			model.save_weights(os.path.join("models", weight_file), overwrite=True)
 
+	@staticmethod
+	def inference():
+		pass
+
 
 if __name__ == '__main__':
 
-    LeNet.train()
+    LeNet.train(save_weights=False)
