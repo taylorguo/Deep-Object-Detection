@@ -12,3 +12,4 @@ Inspired by awesome object detection, deep object detection does a easy way for 
 LeNet-Keras restructure
 
 <img src="./assets/code_diagram/lenet_revised.png" width="400">
+Accuracy: 98.54%
