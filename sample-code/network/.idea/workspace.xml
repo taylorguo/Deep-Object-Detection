@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lenet_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenet_keras.py" afterDir="false" />
-    </list>
+    <list default="true" id="8504a0c6-d13f-4442-bf82-256751722542" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lenet_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="611">
+              <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
               <folding>
                 <element signature="e#316#351#0" expanded="true" />
                 <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
@@ -198,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenet_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="611">
+          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
           <folding>
             <element signature="e#316#351#0" expanded="true" />
             <marker date="1552986408777" expanded="true" signature="612:614" ph="..." />
