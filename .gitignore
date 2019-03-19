@@ -1,2 +1,4 @@
 
 dataset/.DS_Store
+*.h5
+*/.idea
