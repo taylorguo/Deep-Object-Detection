@@ -25,10 +25,9 @@ from keras import backend as K
 from tflearn.datasets import oxflower17
 from keras.utils import to_categorical
 from keras.optimizers import SGD, Adam
-<<<<<<< HEAD
-=======
+
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
->>>>>>> 9161169f0e1221795e4a934b1fd3b57cfefec67f
+
 import numpy as np
 import os,datetime
 
@@ -96,11 +95,8 @@ class AlexNet:
 	def train(weight_path=None, load_weights=False, save_weights=True):
 
 		model = AlexNet.build(channels=3, height=224, width=224, classes=17)
-<<<<<<< HEAD
-		model.compile(loss="categorical_crossentropy", optimizer=Adam(lr=0.001), metrics=["accuracy"])
-=======
+		
 		model.compile(loss="categorical_crossentropy", optimizer=Adam(lr=0.0005), metrics=["accuracy"])
->>>>>>> 9161169f0e1221795e4a934b1fd3b57cfefec67f
 
 		(train_d, train_l) = AlexNet.load_dataset_oxflower17()
 
@@ -113,12 +109,8 @@ class AlexNet:
 
 		if load_weights==False:
 			print("\t Start training ...")
-<<<<<<< HEAD
-			model.fit(train_d, train_l, batch_size=64, epochs=100, verbose=1, validation_split=0.4, shuffle=True)
-=======
 			train_history= model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_split=0.3,
 					  callbacks=[reduce_lr, save_best_model,early_stopping])
->>>>>>> 9161169f0e1221795e4a934b1fd3b57cfefec67f
 		else:
 			pass
 			# load_weights from weight_path
