@@ -2,3 +2,7 @@
 dataset/.DS_Store
 *.h5
 */.idea
+
+*.pkl
+*.tgz
+sample-code/network/*.jpg
