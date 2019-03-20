@@ -24,7 +24,7 @@ from keras import backend as K
 
 from tflearn.datasets import oxflower17
 from keras.utils import to_categorical
-from keras.optimizers import SGD
+from keras.optimizers import SGD, Adam
 import numpy as np
 import cv2, os,datetime
 
@@ -63,10 +63,10 @@ class AlexNet:
 		model.add(Flatten())
 
 		model.add(Dense(4096, activation=activation))
-		model.add(Dropout(0.5))
+		model.add(Dropout(0.6))
 
 		model.add(Dense(4096, activation=activation))
-		model.add(Dropout(0.5))
+		model.add(Dropout(0.6))
 
 		model.add(Dense(1000, activation=activation))
 		model.add(Dropout(0.5))
@@ -92,13 +92,13 @@ class AlexNet:
 	def train(weight_path=None, load_weights=False, save_weights=True):
 
 		model = AlexNet.build(channels=3, height=224, width=224, classes=17)
-		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.01), metrics=["accuracy"])
+		model.compile(loss="categorical_crossentropy", optimizer=Adam(lr=0.001), metrics=["accuracy"])
 
 		(train_d, train_l) = AlexNet.load_dataset_oxflower17()
 
 		if load_weights==False:
 			print("\t Start training ...")
-			model.fit(train_d, train_l, batch_size=128, epochs=100, verbose=1, validation_split=0.3, shuffle=True)
+			model.fit(train_d, train_l, batch_size=64, epochs=100, verbose=1, validation_split=0.4, shuffle=True)
 		else:
 			pass
 			# load_weights from weight_path
