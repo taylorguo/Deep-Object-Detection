@@ -21,7 +21,7 @@ from keras import backend as K
 
 from keras.applications.vgg16 import VGG16
 
-from tflearn.datasets import oxflower17
+from keras.datasets import cifar100
 
 from keras.utils import to_categorical
 from keras.optimizers import SGD, Adam
@@ -35,7 +35,7 @@ class VGG16_Net:
 
 	@staticmethod
 	def build(activation="relu"):
-		vgg16_pretrained_model = VGG16(include_top=False, weights=None, input_shape=(224,224,3))
+		vgg16_pretrained_model = VGG16(include_top=False, weights=None, input_shape=(32,32,3))
 		# for layer in vgg16_pretrained_model.layers:
 		# 	layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
@@ -52,12 +52,12 @@ class VGG16_Net:
 		return model
 
 	@staticmethod
-	def load_dataset_oxflower17():
-		print("\t Downloading oxflower17 dataset ...")
+	def load_dataset_cifar100():
+		print("\t Downloading CIFAR-100 dataset ...")
 
-		(x_train, y_train) = oxflower17.load_data()
+		(x_train, y_train), (x_test, y_test) = cifar100.load_data()
 
-		return (x_train, y_train)
+		return ((x_train, y_train), (x_test, y_test))
 
 	@staticmethod
 	def train(weight_path=None, load_weights=False, save_weights=True):
@@ -66,18 +66,18 @@ class VGG16_Net:
 
 		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.0005), metrics=["accuracy"])
 
-		(train_d, train_l) = VGG16_Net.load_dataset_oxflower17()
+		(train_d, train_l), (test_d, test_l) = VGG16_Net.load_dataset_cifar100()
 
 		early_stopping = EarlyStopping(monitor="val_acc", patience=200, verbose=1)
 		reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=0.8, patience=100, verbose=1)
 		if not os.path.exists("models"):
 			os.mkdir("models")
-		best_weights = "models/best_weights_VGG16_oxflower17.h5"
+		best_weights = "models/best_weights_VGG16_CIFAR100.h5"
 		save_best_model = ModelCheckpoint(best_weights, monitor="val_acc", verbose=1, save_best_only=True)
 
 		if load_weights == False:
 			print("\t Start training ...")
-			train_history = model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_split=0.3,
+			train_history = model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_data=(test_d, test_l),
 			                          callbacks=[reduce_lr, save_best_model, early_stopping])
 		else:
 			pass
