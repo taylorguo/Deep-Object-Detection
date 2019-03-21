@@ -34,7 +34,7 @@ import os,datetime
 class VGG16_Net:
 
 	@staticmethod
-	def build(activation="relu", classes):
+	def build(activation="relu", classes=17):
 		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(224,224,3))
 		for layer in vgg16_pretrained_model.layers:
 			layer.trainable = False
@@ -60,7 +60,7 @@ class VGG16_Net:
 	@staticmethod
 	def train(weight_path=None, load_weights=False, save_weights=True):
 
-		model = VGG16_Net.build(classes=17)
+		model = VGG16_Net.build()
 
 		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.0005), metrics=["accuracy"])
 
