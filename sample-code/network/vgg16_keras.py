@@ -39,9 +39,9 @@ class VGG16_Net:
 		for layer in vgg16_pretrained_model.layers:
 			layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
-		x = Dense(4096, activation=activation, name="FC_1")(x)
+		x = Dense(512, activation=activation, name="FC_1")(x)
 		x = Dropout(0.5)(x)
-		x = Dense(4096, activation=activation, name="FC_2")(x)
+		x = Dense(128, activation=activation, name="FC_2")(x)
 		x = Dropout(0.5)(x)
 		x = Dense(classes, activation="softmax", name="output")(x)
 
