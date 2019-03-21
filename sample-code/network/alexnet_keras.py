@@ -63,13 +63,13 @@ class AlexNet:
 
 		model.add(Flatten())
 
-		model.add(Dense(4096, activation=activation))
+		model.add(Dense(512, activation=activation))
 		model.add(Dropout(0.6))
 
-		model.add(Dense(4096, activation=activation))
+		model.add(Dense(512, activation=activation))
 		model.add(Dropout(0.6))
 
-		model.add(Dense(1000, activation=activation))
+		model.add(Dense(128, activation=activation))
 		model.add(Dropout(0.6))
 
 		model.add(Dense(classes, activation="softmax"))
