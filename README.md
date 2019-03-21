@@ -30,7 +30,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 [VGG16 Keras 官方代码实现](https://github.com/taylorguo/Deep-Object-Detection/blob/master/sample-code/network/vgg16.py)
 
-VGG16-Keras oxflower17 物体分类: 修改后的网络 val_acc: ~83.62%, 过拟合
+[VGG16-Keras oxflower17 物体分类](https://github.com/taylorguo/Deep-Object-Detection/blob/master/sample-code/network/vgg16_keras.py): 修改后的网络 val_acc: ~83.62%, 过拟合
 
 <img src="./assets/code_diagram/vgg16_tl.png" width="400">
 
