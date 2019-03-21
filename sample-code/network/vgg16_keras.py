@@ -34,7 +34,7 @@ class VGG16_Net:
 
 	@staticmethod
 	def build(activation="relu"):
-		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(224,224,3))
+		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(32,32,3))
 		for layer in vgg16_pretrained_model.layers:
 			layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
@@ -42,7 +42,7 @@ class VGG16_Net:
 		x = Dropout(0.5)(x)
 		x = Dense(4096, activation=activation, name="FC_2")(x)
 		x = Dropout(0.5)(x)
-		x = Dense(17, activation="softmax", name="output")(x)
+		x = Dense(100, activation="softmax", name="output")(x)
 
 		model = Model(vgg16_pretrained_model.input, x, name="VGG16_imagenet_no_top")
 
