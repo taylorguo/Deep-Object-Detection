@@ -34,7 +34,7 @@ class VGG16_Net:
 
 	@staticmethod
 	def build(activation="relu"):
-		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(32,32,3))
+		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(48,48,3))
 		for layer in vgg16_pretrained_model.layers:
 			layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
@@ -65,7 +65,7 @@ class VGG16_Net:
 
 		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.0005), metrics=["accuracy"])
 
-		(train_d, train_l), (test_d, test_l) = VGG16_Net.load_dataset_oxflower17()
+		(train_d, train_l), (test_d, test_l) = VGG16_Net.load_dataset_cifar100()
 
 		early_stopping = EarlyStopping(monitor="val_acc", patience=200, verbose=1)
 		reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=0.8, patience=100, verbose=1)
