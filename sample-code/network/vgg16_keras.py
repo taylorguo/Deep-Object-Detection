@@ -76,7 +76,7 @@ class VGG16_Net:
 
 		if load_weights == False:
 			print("\t Start training ...")
-			train_history = model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_split=0.3,
+			train_history = model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_split=0.2,
 			                          callbacks=[reduce_lr, save_best_model, early_stopping])
 		else:
 			pass
