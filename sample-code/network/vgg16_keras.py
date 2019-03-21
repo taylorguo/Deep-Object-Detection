@@ -34,42 +34,41 @@ import os,datetime
 class VGG16_Net:
 
 	@staticmethod
-	def build(activation="relu"):
-		vgg16_pretrained_model = VGG16(include_top=False, weights=None, input_shape=(224,224,3))
-		# for layer in vgg16_pretrained_model.layers:
-		# 	layer.trainable = False
+	def build(activation="relu", classes):
+		vgg16_pretrained_model = VGG16(include_top=False, weights="imagenet", input_shape=(224,224,3))
+		for layer in vgg16_pretrained_model.layers:
+			layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
 		x = Dense(4096, activation=activation, name="FC_1")(x)
 		x = Dropout(0.5)(x)
 		x = Dense(4096, activation=activation, name="FC_2")(x)
 		x = Dropout(0.5)(x)
-		x = Dense(100, activation="softmax", name="output")(x)
+		x = Dense(classes, activation="softmax", name="output")(x)
 
 		model = Model(vgg16_pretrained_model.input, x, name="VGG16_imagenet_no_top")
-
 		model.summary()
-
 		return model
 
 	@staticmethod
 	def load_dataset_oxflower17():
 		print("\t Downloading oxflower17 dataset ...")
 
-		(x_train, y_train) = oxflower17.load_data()
+		(x_train, y_train) = oxflower17.load_data(one_hot=True)
 
 		return (x_train, y_train)
 
 	@staticmethod
 	def train(weight_path=None, load_weights=False, save_weights=True):
 
-		model = VGG16_Net.build()
+		model = VGG16_Net.build(classes=17)
 
 		model.compile(loss="categorical_crossentropy", optimizer=SGD(lr=0.0005), metrics=["accuracy"])
 
-		(train_d, train_l) = VGG16_Net.load_dataset_oxflower17()
+		train_d, train_l = VGG16_Net.load_dataset_oxflower17()
 
 		early_stopping = EarlyStopping(monitor="val_acc", patience=200, verbose=1)
 		reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=0.8, patience=100, verbose=1)
+
 		if not os.path.exists("models"):
 			os.mkdir("models")
 		best_weights = "models/best_weights_VGG16_oxflower17.h5"
