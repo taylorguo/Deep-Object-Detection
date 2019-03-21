@@ -25,7 +25,9 @@ from keras import backend as K
 from tflearn.datasets import oxflower17
 from keras.utils import to_categorical
 from keras.optimizers import SGD, Adam
+
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
+
 import numpy as np
 import os,datetime
 
@@ -93,6 +95,7 @@ class AlexNet:
 	def train(weight_path=None, load_weights=False, save_weights=True):
 
 		model = AlexNet.build(channels=3, height=224, width=224, classes=17)
+		
 		model.compile(loss="categorical_crossentropy", optimizer=Adam(lr=0.0005), metrics=["accuracy"])
 
 		(train_d, train_l) = AlexNet.load_dataset_oxflower17()
