@@ -53,21 +53,21 @@ class VGG19_Net:
 		x = Conv2D(256, (3, 3), padding=padding, activation=activation, name="block3_conv2")(x)
 		x = Conv2D(256, (3, 3), padding=padding, activation=activation, name="block3_conv3")(x)
 		x = Conv2D(256, (3, 3), padding=padding, activation=activation, name="block3_conv4")(x)
-		x = MaxPooling2D((2, 2), strides=(2, 2), name="block3_pool")
+		x = MaxPooling2D((2, 2), strides=(2, 2), name="block3_pool")(x)
 
 		# Block 4
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block4_conv1")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block4_conv2")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block4_conv3")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block4_conv4")(x)
-		x = MaxPooling2D((2, 2), strides=(2, 2), name="block4_pool")
+		x = MaxPooling2D((2, 2), strides=(2, 2), name="block4_pool")(x)
 
 		# Block 5
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block5_conv1")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block5_conv2")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block5_conv3")(x)
 		x = Conv2D(512, (3, 3), padding=padding, activation=activation, name="block5_conv4")(x)
-		x = MaxPooling2D((2, 2), strides=(2, 2), name="block5_pool")
+		x = MaxPooling2D((2, 2), strides=(2, 2), name="block5_pool")(x)
 
 		# classification block
 		x = Flatten(name="flatten")(x)
@@ -122,8 +122,8 @@ class VGG19_Net:
 		print("\t Loading CIFAR-100 dataset ...")
 		(train_d, train_l), (test_d, test_l) = cifar100.load_data()
 
-		train_l = to_categorical(train_l, num_classes=100)
-		test_l = to_categorical(test_l, num_classes=100)
+		train_l = to_categorical(train_l, num_classes=100).reshape((50000, 100))
+		test_l = to_categorical(test_l, num_classes=100).reshape((10000, 100))
 
 		input_shape = train_d.shape[1:]
 
@@ -138,15 +138,13 @@ class VGG19_Net:
 		best_weights = "models/best_weights_VGG16_CIFAR100_{val_acc:.4f}.h5"
 
 		save_best_model = ModelCheckpoint(best_weights, monitor="val_acc", verbose=1, save_best_only=True)
-		reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=np.sqrt(0.1), cooldown=0, patience=5, min_lr=0.5e-6)
 		early_stopping = EarlyStopping(monitor="val_acc", patience=200, verbose=1)
-		# reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=0.8, patience=100, verbose=1)
+		reduce_lr = ReduceLROnPlateau(monitor="val_acc", factor=0.8, patience=100, verbose=1)
+		callbacks = [reduce_lr, save_best_model, early_stopping]
 
 		print("\t Start training ...")
-		# train_history = model.fit(train_d, train_l, batch_size=64, epochs=1000, verbose=1, validation_data=(test_d, test_l),
-		# 	                          callbacks=[reduce_lr, save_best_model, early_stopping])
-
-		train_history = model.fit(train_d, train_l, batch_size=32, epochs=1000, verbose=1, validation_data=(test_d, test_l))
+		train_history = model.fit(train_d, train_l, batch_size=128, epochs=10000, verbose=1,
+		                          validation_data=(test_d, test_l), callbacks=callbacks)
 
 
 if __name__ == '__main__':
