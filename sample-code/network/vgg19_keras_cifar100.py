@@ -19,7 +19,7 @@ from keras.layers import Conv2D, MaxPooling2D, Activation, Flatten, Dense, Dropo
 from keras.layers.normalization import BatchNormalization
 from keras import backend as K
 
-from keras.applications.vgg16 import VGG16
+# from keras.applications.vgg16 import VGG16
 
 from keras.datasets import cifar100
 
@@ -31,11 +31,11 @@ from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 import numpy as np
 import os,datetime
 
-class VGG16_Net:
+class VGG19_Net:
 
 	@staticmethod
 	def build(activation="relu"):
-		vgg16_pretrained_model = VGG16(include_top=False, weights=None, input_shape=(32,32,3))
+		vgg19_pretrained_model = VGG19(include_top=False, weights=None, input_shape=(32,32,3))
 		# for layer in vgg16_pretrained_model.layers:
 		# 	layer.trainable = False
 		x = Flatten()(vgg16_pretrained_model.output)
