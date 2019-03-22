@@ -71,7 +71,7 @@ class VGG16_Net:
 
 		if not os.path.exists("models"):
 			os.mkdir("models")
-		best_weights = "models/best_weights_VGG16_oxflower17.h5"
+		best_weights = "models/best_weights_VGG16_oxflower17_val_acc{val_acc:.3f}.h5"
 		save_best_model = ModelCheckpoint(best_weights, monitor="val_acc", verbose=1, save_best_only=True)
 
 		if load_weights == False:
