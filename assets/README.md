@@ -177,7 +177,7 @@
     - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
         - region proposal with scale-normalized before classifying with a ConvNet
 
-        - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
+        
 
     <img src="./algorithm/rcnn.png" width="600">
     
@@ -187,6 +187,7 @@
 
     <img src="./algorithm/sppnet.png" width="600">
 
+    - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
 
 2015
 
