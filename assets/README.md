@@ -194,7 +194,7 @@
 
     - RPN(Region Proposal Network) & Anchor Box
 
-        <img src="./assets/algorithm/faster_rcnn.png" width="600">
+        <img src="./algorithm/faster_rcnn.png" width="600">
 
 
 - 基于Faster RCNN物体检索 Faster RCNN Object Search [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
