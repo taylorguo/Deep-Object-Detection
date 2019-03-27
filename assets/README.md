@@ -178,7 +178,10 @@
         - region proposal with scale-normalized before classifying with a ConvNet
 
         - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
-        
+
+    <img src="./algorithm/rcnn.png" width="600">
+    
+
 
 - SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
 
