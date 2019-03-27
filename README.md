@@ -1,4 +1,4 @@
-# Deep-Object-Detection
+# Deep-Object-Detection [图解物体检测 & 网络框架]()
 Inspired by awesome object detection, deep object detection does a easy way for understanding in Chinese.
 
 ## 主要的网络架构
@@ -42,4 +42,4 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 =============================
 
-[图解 Object Detection 各种方法](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
+[图解 Object Detection 框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
