@@ -1,6 +1,6 @@
-## 图解 Object Detection 框架
+# 图解 Object Detection 框架
 
-### General Information
+## General Information
 
 - [cs231n : Spatial Localization and Detection](http://cs231n.stanford.edu/slides/2016/winter1516_lecture8.pdf)
 
@@ -69,7 +69,7 @@
 
 
 ============================
-### Single Stage Object Detection
+## Single Stage Object Detection
 
 
 2015
@@ -162,7 +162,7 @@
 
 
 ===========================
-### Multi-stage Object Detection
+## Multi-stage Object Detection
 
 
 
