@@ -1,4 +1,4 @@
-# Deep-Object-Detection [图解物体检测 & 网络框架]()
+# [图解物体检测 & 网络框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
 Inspired by awesome object detection, deep object detection does a easy way for understanding in Chinese.
 
 ## 主要的网络架构
