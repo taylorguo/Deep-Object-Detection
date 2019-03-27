@@ -207,6 +207,8 @@
 
     <img src="./algorithm/faster_rcnn.png" width="600">
 
+    - [Convolutional Feature Maps](http://kaiminghe.com/iccv15tutorial/iccv2015_tutorial_convolutional_feature_maps_kaiminghe.pdf)
+
 
 - 物体检索 [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
 
