@@ -29,7 +29,7 @@
 
     - sliding window detector on an image pyramid
 
-    - 
+
 
 2014
 
@@ -176,6 +176,9 @@
 
     - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
         - region proposal with scale-normalized before classifying with a ConvNet
+
+        - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
+        
 
 - SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
 
