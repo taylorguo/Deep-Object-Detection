@@ -1,4 +1,4 @@
-## Reading List
+## 图解 Object Detection 框架
 
 ### General Information
 
@@ -181,7 +181,7 @@
 
     -[RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
 
-    - <img src="./algorithm/RCNN_algorithm.png" width="600">
+    <img src="./algorithm/RCNN_algorithm.png" width="800">
     
 
 
