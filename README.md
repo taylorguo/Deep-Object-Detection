@@ -42,4 +42,4 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 =============================
 
-## [图解 Object Detection 框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
+# [图解 Object Detection 框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
