@@ -216,6 +216,9 @@
 
 2016
 
+
+
+
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
 
     - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
