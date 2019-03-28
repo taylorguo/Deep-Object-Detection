@@ -205,7 +205,7 @@
 
     - RPN(Region Proposal Network) & Anchor Box
 
-    <img src="./algorithm/faster_rcnn.png" width="600">
+    <img src="./algorithm/faster_rcnn.png">
 
     - [Convolutional Feature Maps](http://kaiminghe.com/iccv15tutorial/iccv2015_tutorial_convolutional_feature_maps_kaiminghe.pdf)
 
@@ -216,8 +216,6 @@
 
 2016
 
-
-
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
 
     - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
@@ -227,3 +225,7 @@
     - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
     
         每阶段的最深的一层应该有最强的特征
+
+    <img src="./algorithm/fpn.png">
+
+    - [参考文档: Understanding FPN](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
