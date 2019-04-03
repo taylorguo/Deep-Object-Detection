@@ -40,6 +40,18 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 [VGG19 Keras 官方代码实现](https://github.com/taylorguo/Deep-Object-Detection/blob/master/sample-code/network/vgg19.py)
 
 
+
+===================================
+
+[DenseNet- Paper](https://arxiv.org/pdf/1608.06993.pdf)
+[DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
+
+DenseNet
+
+    - Dense Block 层间链接采用concat, 而不是按元素add
+
+
+
 =============================
 
 # [图解 Object Detection 框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
