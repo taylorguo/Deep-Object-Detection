@@ -10,8 +10,8 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [VGG16网络与代码实现](#vgg16%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
-  - [Single Stage Object Detection](#single-stage-object-detection)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
+  - [Single Stage Object Detection](#single-stage-object-detection)
 - [Object_Detection数据集](#objectdetection%E6%95%B0%E6%8D%AE%E9%9B%86)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -143,6 +143,83 @@ DenseNet
 
 
 
+===========================
+
+## Multi-stage Object Detection
+
+
+
+
+2014
+
+- RCNN 
+
+    - [Region-Based Convolutional Networks for
+    Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching/CV/hw/related_papers/3_detection.pdf)
+
+    - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
+        - region proposal with scale-normalized before classifying with a ConvNet
+
+    <img src="./assets/algorithm/rcnn.png" width="600">
+
+    -[RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
+
+    <img src="./assets/algorithm/RCNN_algorithm.png" width="800">
+    
+
+
+- SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
+
+    <img src="./assets/algorithm/sppnet.png" width="600">
+
+    - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
+
+2015
+
+
+
+- FCN -[Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
+
+- [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
+
+    <img src="./assets/algorithm/fast_rcnn.png" width="600">
+
+- [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
+
+    - RPN(Region Proposal Network) & Anchor Box
+
+    <img src="./assets/algorithm/faster_rcnn_v2.png">
+
+    - [Convolutional Feature Maps](http://kaiminghe.com/iccv15tutorial/iccv2015_tutorial_convolutional_feature_maps_kaiminghe.pdf)
+
+
+- 物体检索 [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
+
+
+
+2016
+
+
+
+
+- [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
+
+    - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
+
+        想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
+
+    - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
+    
+        每阶段的最深的一层应该有最强的特征
+
+    <img src="./assets/algorithm/fpn.png">
+
+    - [参考文档: Understanding FPN](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
+
+
+
+
+
 ============================
 ## Single Stage Object Detection
 
@@ -235,78 +312,6 @@ DenseNet
         - 借鉴了 ResNet, 使用了直连, 分别从卷积层或直连层进行直连
 
 
-
-===========================
-## Multi-stage Object Detection
-
-
-
-
-2014
-
-- RCNN 
-
-    - [Region-Based Convolutional Networks for
-    Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching/CV/hw/related_papers/3_detection.pdf)
-
-    - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
-        - region proposal with scale-normalized before classifying with a ConvNet
-
-    <img src="./assets/algorithm/rcnn.png" width="600">
-
-    -[RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
-
-    <img src="./assets/algorithm/RCNN_algorithm.png" width="800">
-    
-
-
-- SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
-
-    <img src="./assets/algorithm/sppnet.png" width="600">
-
-    - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
-
-2015
-
-
-
-- FCN -[Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
-
-- [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
-
-    <img src="./assets/algorithm/fast_rcnn.png" width="600">
-
-- [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
-
-    - RPN(Region Proposal Network) & Anchor Box
-
-    <img src="./assets/algorithm/faster_rcnn.png">
-
-    - [Convolutional Feature Maps](http://kaiminghe.com/iccv15tutorial/iccv2015_tutorial_convolutional_feature_maps_kaiminghe.pdf)
-
-
-- 物体检索 [Faster R-CNN Features for Instance Search](https://arxiv.org/pdf/1604.08893.pdf) 
-
-
-
-2016
-
-
-
-
-- [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
-
-    - Idea from traditional CV feature pyramids, for compute and memory intensive in DL 
-
-        想法源自传统计算机视觉中的特征金字塔, 深度学习中没用是因为计算密集,占内存
-
-    - bottome-up in FeedForward: deepest layer of each stage should have the strongest features
-    
-        每阶段的最深的一层应该有最强的特征
-
-    <img src="./assets/algorithm/fpn.png">
-
-    - [参考文档: Understanding FPN](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
 
 
 
