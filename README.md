@@ -12,7 +12,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
   - [Single Stage Object Detection](#single-stage-object-detection)
-- [Object_Detection数据集](#objectdetection%E6%95%B0%E6%8D%AE%E9%9B%86)
+- [数据集Object_Detection](#%E6%95%B0%E6%8D%AE%E9%9B%86objectdetection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
   - [Plant](#plant)
@@ -317,9 +317,9 @@ DenseNet
 
 =============================
 
-# Object_Detection数据集
+# 数据集Object_Detection
 
-Not sure every dataset includes annotation. Suppose application should handle these.
+不确定每个数据集都包含完整的物体检测数据标注。
 
 ## General Dataset
 
