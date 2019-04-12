@@ -12,6 +12,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
   - [Single Stage Object Detection](#single-stage-object-detection)
+    - [2019](#2019)
 - [数据集Object_Detection](#%E6%95%B0%E6%8D%AE%E9%9B%86objectdetection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -220,6 +221,8 @@ DenseNet
 
 
 
+
+
 ============================
 ## Single Stage Object Detection
 
@@ -312,7 +315,9 @@ DenseNet
         - 借鉴了 ResNet, 使用了直连, 分别从卷积层或直连层进行直连
 
 
+### 2019 
 
+- [M2Det] (https://arxiv.org/pdf/1811.04533.pdf)
 
 
 =============================
