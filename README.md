@@ -191,6 +191,8 @@ DenseNet
       - 跳层结构, 特征图融合: 元素按像素相加(Keras里面 add 函数)
       - 将特征图转换成原图像大小进行像素预测
 
+        <img src="./assets/block_diagram/fcn_upooling.jpg" width="400">
+
         <img src="./assets/block_diagram/fcn.png" width="400">
 
     - 语义分割的问题定义:
