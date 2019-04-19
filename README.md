@@ -382,18 +382,18 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 ## General Dataset
 
-[Dataset Collection](http://www.escience.cn/people/lichang/Data.html)
+- [数据集收集 Dataset Collection](http://www.escience.cn/people/lichang/Data.html)
 
-[25种简介](https://www.easemob.com/news/1433)
+- [数据集: 25种简介](https://www.easemob.com/news/1433)
 
-[ImageNet 最大的图像识别图像库](http://www.image-net.org/)
+- [ImageNet 最大的图像识别图像库](http://www.image-net.org/)
 
     - 14,197,122张图像
 
-[PASCAL Visual Object Classes Challenge 2008 (VOC2008)](http://host.robots.ox.ac.uk/pascal/VOC/voc2008/htmldoc/voc.html),  [VOC-2012](http://pjreddie.com/projects/pascal-voc-dataset-mirror/)
+- [PASCAL Visual Object Classes Challenge 2008 (VOC2008)](http://host.robots.ox.ac.uk/pascal/VOC/voc2008/htmldoc/voc.html), [VOC-2012](http://pjreddie.com/projects/pascal-voc-dataset-mirror/)
 
 
-[Open Images dataset](https://github.com/openimages/dataset)
+- [Open Images dataset(带标注)](https://github.com/openimages/dataset)
 
 
     - 近900万个图像URL数据集, 数千个类的图像级标签边框并且进行了标注。
@@ -401,7 +401,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     - 数据集包含9,011,219张图像的训练集, 41,260张图像的验证集, 125,436张图像的测试集。
 
 
-[Corel5K 图像集](https://github.com/watersink/Corel5K)
+- [Corel5K 图像集](https://github.com/watersink/Corel5K)
 
     - Corel5K图像集，共5000幅图片，包含50个语义主题，有公共汽车、恐龙、海滩等。
 
