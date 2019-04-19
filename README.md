@@ -186,18 +186,22 @@ DenseNet
         <img src="./assets/block_diagram/fcn_architecture.png" width="400">
 
     - 语义分割的网络结构:  
-      - 提取不同的池化层特征图
-      - 对特征图进行上采样
-      - 上采样使用反卷积(转置卷积)
-      - 特征图融合: 元素按像素相加(Keras里面 add 函数)
+      - 提取不同的池化层特征图, 对特征图进行上采样
+      - 上采样使用反卷积(转置卷积) : 导致反卷积后的图像不够细致
+      - 跳层结构, 特征图融合: 元素按像素相加(Keras里面 add 函数)
       - 将特征图转换成原图像大小进行像素预测
 
         <img src="./assets/block_diagram/fcn.png" width="400">
 
     - 语义分割的问题定义:
       - 像素值二分类
+      - 最后一层卷积为1x1x21(VOC 20类物体+1类背景)
+
+        <img src="./assets/block_diagram/fcn_block.png" width="400">
 
         [参考资料: 全卷积网络 FCN 详解](https://blog.csdn.net/sinat_24143931/article/details/78696442)
+
+        [参考资料: 10分钟看懂FCN: 语义分割深度模型先驱](http://www.sohu.com/a/270896638_633698)
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
