@@ -374,6 +374,10 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [M2Det](https://arxiv.org/pdf/1811.04533.pdf)
 
 
+
+[参考资料: 目标检测算法总结](https://www.cnblogs.com/guoyaohua/p/8994246.html)
+
+
 =============================
 
 # 数据集Object_Detection
