@@ -9,10 +9,11 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [LeNet_AlexNet_Keras代码实现](#lenetalexnetkeras%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [VGG16网络与代码实现](#vgg16%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
+  - [Resnet](#resnet)
+  - [DenseNet](#densenet)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
   - [Single Stage Object Detection](#single-stage-object-detection)
-    - [2019](#2019)
 - [数据集Object_Detection](#%E6%95%B0%E6%8D%AE%E9%9B%86objectdetection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -68,13 +69,34 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 
 
+## Resnet
+
+- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) - CVPR
+    - 残差块与直连层:
+        <img src="./assets/block_diagram/resnet_block.png" width="400">
+
+    - 残差网络架构:
+        <img src="./assets/block_diagram/resnet_architecture.png" width="600">
+
+    - 残差网络中 Shortcut Connection 参考文章
+
+        - 1995 - [Neural networks for pattern recognition - Bishop]()
+        - 1996 - [Pattern recognition and neural networks - Ripley]()
+        - 1999 - [Modern applied statistics with s-plus - Venables & Ripley]()
+
+
+- [Highway Networks](https://arxiv.org/pdf/1505.00387v2.pdf), [中文翻译参考](https://www.cnblogs.com/2008nmj/p/9104744.html)
+
+- [Convolutional Neural Networks at Constrained Time Cost](https://arxiv.org/pdf/1412.1710.pdf)
+
+    - 实验表明: 加深网络, 会出现训练误差
+
 ===================================
 
-[DenseNet- Paper](https://arxiv.org/pdf/1608.06993.pdf)
-[DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
 
-DenseNet
-
+## DenseNet
+- [DenseNet- Paper](https://arxiv.org/pdf/1608.06993.pdf)
+- [DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
     - Dense Block 层间链接采用concat, 而不是按元素add
 
 
@@ -109,26 +131,11 @@ DenseNet
 
 2014
 
-- [VGG]()
+- [VGG: Very Deep Convolutional Networks for Large-Scale Image Recognition](http://www.arxiv.org/pdf/1409.1556.pdf)
 
 - SPP: [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf)
 
 
-2015
-
-- [Highway Networks](https://arxiv.org/pdf/1505.00387v2.pdf), [中文翻译参考](https://www.cnblogs.com/2008nmj/p/9104744.html)
-
-- [Convolutional Neural Networks at Constrained Time Cost](https://arxiv.org/pdf/1412.1710.pdf)
-
-    - 实验表明: 加深网络, 会出现训练误差
-
-- ResNet [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) - CVPR
-
-    - 残差网络中 Shortcut Connection 参考文章
-
-        - 1995 - [Neural networks for pattern recognition - Bishop]()
-        - 1996 - [Pattern recognition and neural networks - Ripley]()
-        - 1999 - [Modern applied statistics with s-plus - Venables & Ripley]()
 
 2017
 
@@ -165,7 +172,7 @@ DenseNet
 
     -[RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
 
-    <img src="./assets/algorithm/RCNN_algorithm.png" width="400">
+    <img src="./assets/algorithm/RCNN_algorithm.png" width="600">
     
 
 
@@ -245,10 +252,23 @@ DenseNet
     <img src="./assets/algorithm/fpn.png">
 
     - [参考文档: Understanding FPN](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
+  
+    - Code:
+      - [FPN in Mask-RCNN Keras Code](https://github.com/matterport/Mask_RCNN/blob/master/mrcnn/model.py)
+      - [FPN in Tensorflow](https://github.com/yangxue0827/FPN_Tensorflow)
+      - [FPN in Caffe](https://github.com/unsky/FPN)
 
 
 
+2017 
 
+- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
+  - Code:
+    - [Keras matterport](https://github.com/matterport/Mask_RCNN)
+    - [Caffe2 Facebook](https://github.com/facebookresearch/Detectron)
+    - [PyTorch wannabeOG](https://github.com/wannabeOG/Mask-RCNN)
+    - [MXNet TuSimple](https://github.com/TuSimple/mx-maskrcnn)
+    - [Chainer DeNA](https://github.com/DeNA/Chainer_Mask_R-CNN)
 
 
 
@@ -344,9 +364,9 @@ DenseNet
         - 借鉴了 ResNet, 使用了直连, 分别从卷积层或直连层进行直连
 
 
-### 2019 
+2019 
 
-- [M2Det] (https://arxiv.org/pdf/1811.04533.pdf)
+- [M2Det](https://arxiv.org/pdf/1811.04533.pdf)
 
 
 =============================
