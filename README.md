@@ -180,6 +180,24 @@ DenseNet
 
 
 - FCN -[Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
+  
+    - 全卷积网络将最后的三层全连接层, 用多通道同尺寸卷积核, 转换成卷积层; 使输入图像尺寸可以改动
+
+        <img src="./assets/block_diagram/fcn_architecture.png" width="400">
+
+    - 语义分割的网络结构:  
+      - 提取不同的池化层特征图
+      - 对特征图进行上采样
+      - 上采样使用反卷积(转置卷积)
+      - 特征图融合: 元素按像素相加(Keras里面 add 函数)
+      - 将特征图转换成原图像大小进行像素预测
+
+        <img src="./assets/block_diagram/fcn.png" width="400">
+
+    - 语义分割的问题定义:
+      - 像素值二分类
+
+        [参考资料: 全卷积网络 FCN 详解](https://blog.csdn.net/sinat_24143931/article/details/78696442)
 
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
