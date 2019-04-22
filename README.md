@@ -11,6 +11,8 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [Resnet](#resnet)
   - [DenseNet](#densenet)
+  - [MobileNet-v1:2017](#mobilenet-v12017)
+  - [MobileNet-V2:2019](#mobilenet-v22019)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
   - [Single Stage Object Detection](#single-stage-object-detection)
@@ -104,6 +106,15 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
     - Dense Block 层间链接采用concat, 而不是按元素add
 
+
+## MobileNet-v1:2017
+
+- [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient Convolutional Neural Networks for Mobile Vision Applications
+
+
+## MobileNet-V2:2019
+
+- [MobileNetV2 ](https://arxiv.org/pdf/1801.04381.pdf): Inverted Residuals and Linear Bottlenecks
 
 
 =============================
@@ -372,6 +383,10 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 2019 
 
 - [M2Det](https://arxiv.org/pdf/1811.04533.pdf)
+
+- [CornerNet-Lite](https://arxiv.org/pdf/1904.08900.pdf) : Efficient Keypoint Based Object Detection
+  - CornerNet-Saccade: 处理特征图的像素, 一个裁剪多个检测; 离线处理
+  - CornetNet-Squeeze: 骨干网络, 使用SqueezeNet, 沙漏架构; 实时处理
 
 
 
