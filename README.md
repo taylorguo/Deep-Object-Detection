@@ -16,7 +16,9 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [DenseNet:2016](#densenet2016)
   - [MobileNet-v1:2017](#mobilenet-v12017)
   - [ShuffleNet:2017](#shufflenet2017)
+  - [SENet : 2017](#senet--2017)
   - [MobileNet-V2:2018](#mobilenet-v22018)
+  - [ShuffleNet-V2: 2018](#shufflenet-v2-2018)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
     - [RCNN : 2014](#rcnn--2014)
@@ -134,7 +136,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 ## DenseNet:2016
 
-- [DenseNet- Paper](https://arxiv.org/pdf/1608.06993.pdf)
+- [DenseNet](https://arxiv.org/pdf/1608.06993.pdf) : Densely Connected Convolutional Networks
   
 - [DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
     - Dense Block 层间链接采用concat, 而不是按元素add
@@ -154,11 +156,19 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [ShuffleNet](https://arxiv.org/pdf/1707.01083.pdf): An Extremely Efficient Convolutional Neural Network for Mobile Devices
 
 
+## SENet : 2017
+
+- [SENet](https://arxiv.org/pdf/1709.01507.pdf) Squeeze-and-Excitation Networks
+
 
 ## MobileNet-V2:2018
 
 - [MobileNetV2 ](https://arxiv.org/pdf/1801.04381.pdf): Inverted Residuals and Linear Bottlenecks
 
+
+## ShuffleNet-V2: 2018
+
+- [ShuffleNet V2](https://arxiv.org/pdf/1807.11164.pdf): Practical Guidelines for Efficient CNN Architecture Design
 
 =============================
 
