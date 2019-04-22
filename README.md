@@ -11,13 +11,29 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [Resnet](#resnet)
   - [ResNeXt:2016](#resnext2016)
+  - [Xception:2016](#xception2016)
+  - [SqueezeNet:2016](#squeezenet2016)
   - [DenseNet:2016](#densenet2016)
   - [MobileNet-v1:2017](#mobilenet-v12017)
   - [ShuffleNet:2017](#shufflenet2017)
   - [MobileNet-V2:2018](#mobilenet-v22018)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
+    - [RCNN : 2014](#rcnn--2014)
+    - [SPPnet : 2014](#sppnet--2014)
+    - [FCN : 2015](#fcn--2015)
+    - [Fast R-CNN : 2015](#fast-r-cnn--2015)
+    - [Faster R-CNN : 2015](#faster-r-cnn--2015)
+    - [FPN : 2016](#fpn--2016)
+    - [Mask R-CNN : 2017](#mask-r-cnn--2017)
   - [Single Stage Object Detection](#single-stage-object-detection)
+    - [DenseBox : 2015](#densebox--2015)
+    - [SSD : 2016](#ssd--2016)
+    - [YoLov2 : 2016](#yolov2--2016)
+    - [RetinaNet : 2017](#retinanet--2017)
+    - [YoLov3 : 2018](#yolov3--2018)
+    - [M2Det : 2019](#m2det--2019)
+    - [CornerNet-Lite : 2019](#cornernet-lite--2019)
 - [数据集Object_Detection](#%E6%95%B0%E6%8D%AE%E9%9B%86objectdetection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -106,7 +122,14 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf): Aggregated Residual Transformations for Deep Neural Networks
 
 
+## Xception:2016
+
 - [Xception](https://arxiv.org/pdf/1610.02357.pdf): Deep Learning with Depthwise Separable Convolutions
+
+
+## SqueezeNet:2016
+
+- [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf): AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
 
 
 ## DenseNet:2016
@@ -194,9 +217,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 
 
-2014
 
-- RCNN 
+
+###  RCNN : 2014
 
     - [Region-Based Convolutional Networks for
     Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching/CV/hw/related_papers/3_detection.pdf)
@@ -212,18 +235,20 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     
 
 
-- SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
+###  SPPnet : 2014
 
+- SPPnet [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/pdf/1406.4729.pdf) - ECCV
     <img src="./assets/algorithm/sppnet.png" width="600">
 
     - [ROI Pooling ](http://wavelab.uwaterloo.ca/wp-content/uploads/2017/04/Lecture_6.pdf)
 
-2015
 
 
+
+
+### FCN : 2015
 
 - FCN -[Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf) - CVPR
-  
     - 全卷积网络将最后的三层全连接层, 用多通道同尺寸卷积核, 转换成卷积层; 使输入图像尺寸可以改动
 
         <img src="./assets/block_diagram/fcn_architecture.png" width="400">
@@ -253,9 +278,13 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
       - [FCN offical](https://github.com/shelhamer/fcn.berkeleyvision.org)
 
 
+### Fast R-CNN : 2015
+
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) - ICCV
 
     <img src="./assets/algorithm/fast_rcnn.png" width="600">
+
+### Faster R-CNN : 2015
 
 - [Faster R-CNN: To- wards real-time object detection with region proposal net- works](https://arxiv.org/pdf/1506.01497.pdf) - NIPS
 
@@ -270,10 +299,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 
 
-2016
 
 
-
+### FPN : 2016
 
 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/pdf/1612.03144.pdf)
 
@@ -296,7 +324,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 
 
-2017 
+### Mask R-CNN : 2017 
 
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
   - Code:
@@ -312,11 +340,11 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 ## Single Stage Object Detection
 
 
-2015
+### DenseBox : 2015
 
 - [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
 
-2016
+### SSD : 2016
 
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) - ECCV
 
@@ -334,6 +362,8 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
              <img src="./assets/block_diagram/SSD-framework.png" width="600">
 
+
+### YoLov2 : 2016
 
 - YOLOv2 [YOLO9000: Better, Faster, Stronger](https://arxiv.org/pdf/1612.08242.pdf)
 
@@ -358,7 +388,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
              <img src="./assets/block_diagram/yolo-responsible-predictor.png"  width="400">
 
 
-2017
+### RetinaNet : 2017
 
 - RetinaNet:[Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
 
@@ -377,7 +407,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     
 
 
-2018
+### YoLov3 : 2018
 
 - [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
 
@@ -400,9 +430,12 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
         - 借鉴了 ResNet, 使用了直连, 分别从卷积层或直连层进行直连
 
 
-2019 
+### M2Det : 2019 
 
 - [M2Det](https://arxiv.org/pdf/1811.04533.pdf)
+
+
+### CornerNet-Lite : 2019
 
 - [CornerNet-Lite](https://arxiv.org/pdf/1904.08900.pdf) : Efficient Keypoint Based Object Detection
   - CornerNet-Saccade: 处理特征图的像素, 一个裁剪多个检测; 离线处理
