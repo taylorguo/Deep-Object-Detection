@@ -10,9 +10,11 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [VGG16网络与代码实现](#vgg16%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [Resnet](#resnet)
-  - [DenseNet](#densenet)
+  - [ResNeXt:2016](#resnext2016)
+  - [DenseNet:2016](#densenet2016)
   - [MobileNet-v1:2017](#mobilenet-v12017)
-  - [MobileNet-V2:2019](#mobilenet-v22019)
+  - [ShuffleNet:2017](#shufflenet2017)
+  - [MobileNet-V2:2018](#mobilenet-v22018)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
   - [Single Stage Object Detection](#single-stage-object-detection)
@@ -99,7 +101,15 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 ===================================
 
 
-## DenseNet
+## ResNeXt:2016
+
+- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf): Aggregated Residual Transformations for Deep Neural Networks
+
+
+- [Xception](https://arxiv.org/pdf/1610.02357.pdf): Deep Learning with Depthwise Separable Convolutions
+
+
+## DenseNet:2016
 
 - [DenseNet- Paper](https://arxiv.org/pdf/1608.06993.pdf)
   
@@ -107,12 +117,22 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     - Dense Block 层间链接采用concat, 而不是按元素add
 
 
+
+
+
 ## MobileNet-v1:2017
 
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient Convolutional Neural Networks for Mobile Vision Applications
 
 
-## MobileNet-V2:2019
+
+## ShuffleNet:2017
+
+- [ShuffleNet](https://arxiv.org/pdf/1707.01083.pdf): An Extremely Efficient Convolutional Neural Network for Mobile Devices
+
+
+
+## MobileNet-V2:2018
 
 - [MobileNetV2 ](https://arxiv.org/pdf/1801.04381.pdf): Inverted Residuals and Linear Bottlenecks
 
