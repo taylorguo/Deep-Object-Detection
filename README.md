@@ -154,6 +154,13 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 ## ShuffleNet:2017
 
 - [ShuffleNet](https://arxiv.org/pdf/1707.01083.pdf): An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  
+- 图解ShuffleNet单元块:
+
+    <img src="./assets/block_diagram/shufflenet.png" width="600">
+
+- Code:
+  - [ShuffleNet Tensorflow](https://github.com/MG2033/ShuffleNet)
 
 
 ## SENet : 2017
