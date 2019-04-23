@@ -238,15 +238,15 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 ###  RCNN : 2014
 
-    - [Region-Based Convolutional Networks for
-    Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching/CV/hw/related_papers/3_detection.pdf)
+  - [Region-Based Convolutional Networks for Accurate Object Detection and Segmentation](http://medialab.sjtu.edu.cn/teaching/CV/hw/related_papers/3_detection.pdf)
 
-    - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
-        - region proposal with scale-normalized before classifying with a ConvNet
+  - v5 [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/pdf/1311.2524v3.pdf) - CVPR
+
+  - region proposal with scale-normalized before classifying with a ConvNet
 
     <img src="./assets/algorithm/rcnn.png" width="600">
 
-    -[RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
+  - [RCNN Keras Code](https://github.com/yhenon/keras-rcnn)
 
     <img src="./assets/algorithm/RCNN_algorithm.png" width="600">
     
