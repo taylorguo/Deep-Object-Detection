@@ -204,6 +204,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
     - sliding window detector on an image pyramid
 
+    - Overfeat 算法流程:
+  
+        <img src="./assets/algorithm/overfeat.png" width="600">
 
 2014
 
