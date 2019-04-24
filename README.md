@@ -10,10 +10,11 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [VGG16网络与代码实现](#vgg16%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [VGG19网络与代码实现](#vgg19%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
   - [Resnet](#resnet)
-  - [ResNeXt:2016](#resnext2016)
-  - [Xception:2016](#xception2016)
+  - [Inception-v4: 2016](#inception-v4-2016)
   - [SqueezeNet:2016](#squeezenet2016)
   - [DenseNet:2016](#densenet2016)
+  - [Xception:2016](#xception2016)
+  - [ResNeXt:2016](#resnext2016)
   - [MobileNet-v1:2017](#mobilenet-v12017)
   - [ShuffleNet:2017](#shufflenet2017)
   - [SENet : 2017](#senet--2017)
@@ -117,16 +118,10 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     - 实验表明: 加深网络, 会出现训练误差
 
 ===================================
+## Inception-v4: 2016
 
+- [Inception-v4](https://arxiv.org/pdf/1602.07261v1.pdf), Inception-ResNet and the Impact of Residual Connections on Learning
 
-## ResNeXt:2016
-
-- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf): Aggregated Residual Transformations for Deep Neural Networks
-
-
-## Xception:2016
-
-- [Xception](https://arxiv.org/pdf/1610.02357.pdf): Deep Learning with Depthwise Separable Convolutions
 
 
 ## SqueezeNet:2016
@@ -141,6 +136,17 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [DenseNet- Github](https://github.com/liuzhuang13/DenseNet#results-on-imagenet-and-pretrained-models)
     - Dense Block 层间链接采用concat, 而不是按元素add
 
+
+## Xception:2016
+
+- [Xception](https://arxiv.org/pdf/1610.02357.pdf): Deep Learning with Depthwise Separable Convolutions
+
+
+
+
+## ResNeXt:2016
+
+- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf): Aggregated Residual Transformations for Deep Neural Networks
 
 
 
