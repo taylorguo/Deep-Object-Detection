@@ -15,6 +15,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [DenseNet:2016](#densenet2016)
   - [Xception:2016](#xception2016)
   - [ResNeXt:2016](#resnext2016)
+  - [ROR: 2016](#ror-2016)
   - [MobileNet-v1:2017](#mobilenet-v12017)
   - [ShuffleNet:2017](#shufflenet2017)
   - [SENet : 2017](#senet--2017)
@@ -149,6 +150,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf): Aggregated Residual Transformations for Deep Neural Networks
 
 
+## ROR: 2016
+
+- [ROR](https://arxiv.org/pdf/1608.02908.pdf) - Residual Networks of Residual Networks: Multilevel Residual Networks
 
 
 ## MobileNet-v1:2017
@@ -182,6 +186,11 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 ## ShuffleNet-V2: 2018
 
 - [ShuffleNet V2](https://arxiv.org/pdf/1807.11164.pdf): Practical Guidelines for Efficient CNN Architecture Design
+
+
+
+
+
 
 =============================
 
