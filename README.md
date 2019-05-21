@@ -21,6 +21,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [SENet : 2017](#senet--2017)
   - [MobileNet-V2:2018](#mobilenet-v22018)
   - [ShuffleNet-V2: 2018](#shufflenet-v2-2018)
+  - [MobileNet-V3: 2019](#mobilenet-v3-2019)
 - [图解Object_Detection框架](#%E5%9B%BE%E8%A7%A3objectdetection%E6%A1%86%E6%9E%B6)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
     - [RCNN : 2014](#rcnn--2014)
@@ -188,7 +189,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [ShuffleNet V2](https://arxiv.org/pdf/1807.11164.pdf): Practical Guidelines for Efficient CNN Architecture Design
 
 
+## MobileNet-V3: 2019
 
+- [MobileNet V3](https://arxiv.org/pdf/1905.02244.pdf): Searching for MobileNetV3
 
 
 
