@@ -31,6 +31,8 @@ Inspired by awesome object detection, deep object detection does a easy way for 
     - [Faster R-CNN : 2015](#faster-r-cnn--2015)
     - [FPN : 2016](#fpn--2016)
     - [Mask R-CNN : 2017](#mask-r-cnn--2017)
+    - [Soft-NMS : 2017](#soft-nms--2017)
+    - [Segmentation is all you need : 2019](#segmentation-is-all-you-need--2019)
   - [Single Stage Object Detection](#single-stage-object-detection)
     - [DenseBox : 2015](#densebox--2015)
     - [SSD : 2016](#ssd--2016)
@@ -372,6 +374,16 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
     - [MXNet TuSimple](https://github.com/TuSimple/mx-maskrcnn)
     - [Chainer DeNA](https://github.com/DeNA/Chainer_Mask_R-CNN)
 
+
+### Soft-NMS : 2017
+
+-[Soft-NMS](https://arxiv.org/pdf/1704.04503.pdf)
+
+
+
+### Segmentation is all you need : 2019
+
+- [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300v1.pdf)
 
 
 ============================
