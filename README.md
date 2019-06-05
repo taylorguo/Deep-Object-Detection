@@ -377,7 +377,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 ### Soft-NMS : 2017
 
--[Soft-NMS](https://arxiv.org/pdf/1704.04503.pdf)
+- [Soft-NMS](https://arxiv.org/pdf/1704.04503.pdf)
 
 
 
