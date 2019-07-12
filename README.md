@@ -163,6 +163,13 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient Convolutional Neural Networks for Mobile Vision Applications
 
+- 参考资料:
+  - [tensorflow layers 卷积层 Python定义](https://github.com/tensorflow/tensorflow/blob/43dcd3dc3ee4b090832455acf43e8dd483a6117b/tensorflow/python/layers/convolutional.py#L222)
+  - [tensorflow base Layers class](https://github.com/tensorflow/tensorflow/blob/43dcd3dc3ee4b090832455acf43e8dd483a6117b/tensorflow/python/layers/base.py#L156)
+  - [CNN中卷积层的计算细节@zhihu](https://zhuanlan.zhihu.com/p/29119239)
+  - [CNN中卷积层的计算细节@csdn](https://blog.csdn.net/dcrmg/article/details/79652487)
+  - [【TensorFlow】理解tf.nn.conv2d方法](https://blog.csdn.net/zuolixiangfisher/article/details/80528989)
+  - [【tensorflow源码分析】 Conv2d卷积运算](https://www.cnblogs.com/yao62995/p/5773018.html)
 
 
 ## ShuffleNet:2017
