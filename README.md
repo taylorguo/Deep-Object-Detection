@@ -170,6 +170,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
   - [CNN中卷积层的计算细节@csdn](https://blog.csdn.net/dcrmg/article/details/79652487)
   - [【TensorFlow】理解tf.nn.conv2d方法](https://blog.csdn.net/zuolixiangfisher/article/details/80528989)
   - [【tensorflow源码分析】 Conv2d卷积运算](https://www.cnblogs.com/yao62995/p/5773018.html)
+  - [**『TensorFlow』卷积层、池化层详解**](https://www.cnblogs.com/hellcat/p/7850048.html)
 
 
 ## ShuffleNet:2017
