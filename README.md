@@ -163,6 +163,10 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient Convolutional Neural Networks for Mobile Vision Applications
 
+- 图解MobileNetv1:
+
+    <img src="./assets/block_diagram/mobilenetv1.png" width="600">
+
 - 参考资料:
   - [tensorflow layers 卷积层 Python定义](https://github.com/tensorflow/tensorflow/blob/43dcd3dc3ee4b090832455acf43e8dd483a6117b/tensorflow/python/layers/convolutional.py#L222)
   - [tensorflow base Layers class](https://github.com/tensorflow/tensorflow/blob/43dcd3dc3ee4b090832455acf43e8dd483a6117b/tensorflow/python/layers/base.py#L156)
@@ -194,6 +198,9 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 - [MobileNetV2 ](https://arxiv.org/pdf/1801.04381.pdf): Inverted Residuals and Linear Bottlenecks
 
+- 图解MobileNetv2:
+
+    <img src="./assets/block_diagram/mobilenetv2.png" width="600">
 
 ## ShuffleNet-V2: 2018
 
