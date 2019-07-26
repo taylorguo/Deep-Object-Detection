@@ -213,7 +213,7 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 ## EfficientNet: 2019
 
--[EfficientNet](https://arxiv.org/pdf/1905.11946.pdf): Rethinking Model Scaling for Convolutional Neural Networks
+- [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf): Rethinking Model Scaling for Convolutional Neural Networks
 
 =============================
 
