@@ -23,7 +23,8 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [ShuffleNet-V2: 2018](#shufflenet-v2-2018)
   - [MobileNet-V3: 2019](#mobilenet-v3-2019)
   - [EfficientNet: 2019](#efficientnet-2019)
-  - [ViT-Image Recognition at Scale: 2019](#vit-image-recognition-at-scale-2019)
+  - [ViT-Image Recognition at Scale: 2021](#vit-image-recognition-at-scale-2021)
+  - [Perceiver: 2021](#perceiver-2021)
 - [图解Object_Detection框架](#图解object_detection框架)
   - [Multi-stage Object Detection](#multi-stage-object-detection)
     - [RCNN : 2014](#rcnn--2014)
@@ -43,6 +44,9 @@ Inspired by awesome object detection, deep object detection does a easy way for 
     - [YoLov3 : 2018](#yolov3--2018)
     - [M2Det : 2019](#m2det--2019)
     - [CornerNet-Lite : 2019](#cornernet-lite--2019)
+- [图解 Action Classification](#图解-action-classification)
+  - [LeNet_AlexNet](#lenet_alexnet-1)
+  - [LeNet_AlexNet_Keras代码实现](#lenet_alexnet_keras代码实现-1)
 - [数据集Object_Detection](#数据集object_detection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -218,13 +222,26 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 
 
-## ViT-Image Recognition at Scale: 2019
+## ViT-Image Recognition at Scale: 2021
 
 - [Vision Transformers](https://arxiv.org/pdf/2010.11929.pdf): An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
 [ViT image classification - Keras code](https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py)
 
+
+
+## Perceiver: 2021
+
+- [Perceiver](https://arxiv.org/pdf/2103.03206.pdf) : General Perception with Iterative Attention
+
+
+
+[ViT image classification - Keras code](https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py)
+
+
 =============================
+
+
 
 # [图解Object_Detection框架](https://github.com/taylorguo/Deep-Object-Detection/blob/master/assets/README.md)
 
@@ -523,7 +540,31 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 [参考资料: 目标检测算法总结](https://www.cnblogs.com/guoyaohua/p/8994246.html)
 
 
+
+
 =============================
+
+
+# 图解 Action Classification
+
+## LeNet_AlexNet
+<img src="./assets/block_diagram/lenet_alexnet.png" width="600">
+
+- [Modeling Multi-Label Action Dependencies for Temporal Action Localization](https://arxiv.org/pdf/2103.03027.pdf)
+
+## LeNet_AlexNet_Keras代码实现
+
+[LeNet-Keras for mnist handwriting digital image classification](https://github.com/taylorguo/Deep-Object-Detection/blob/master/sample-code/network/lenet_keras.py)
+
+LeNet-Keras restructure
+
+<img src="./assets/code_diagram/lenet_revised.png" width="500">
+Accuracy: 98.54%
+
+
+=============================
+
+
 
 # 数据集Object_Detection
 
