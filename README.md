@@ -45,8 +45,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
     - [M2Det : 2019](#m2det--2019)
     - [CornerNet-Lite : 2019](#cornernet-lite--2019)
 - [图解 Action Classification](#图解-action-classification)
-  - [LeNet_AlexNet](#lenet_alexnet-1)
-  - [LeNet_AlexNet_Keras代码实现](#lenet_alexnet_keras代码实现-1)
+  - [:lemon:  MLAD    :date:   2021.03.04v1  :blush:  University of Central Florida](#lemon--mlad----date---20210304v1--blush--university-of-central-florida)
 - [数据集Object_Detection](#数据集object_detection)
   - [General Dataset](#general-dataset)
   - [Animal](#animal)
@@ -547,19 +546,14 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 
 # 图解 Action Classification
 
-## LeNet_AlexNet
-<img src="./assets/block_diagram/lenet_alexnet.png" width="600">
+## :lemon:  [MLAD](https://arxiv.org/pdf/2103.03027.pdf)    :date:   2021.03.04v1  :blush:  University of Central Florida
 
 - [Modeling Multi-Label Action Dependencies for Temporal Action Localization](https://arxiv.org/pdf/2103.03027.pdf)
 
-## LeNet_AlexNet_Keras代码实现
-
-[LeNet-Keras for mnist handwriting digital image classification](https://github.com/taylorguo/Deep-Object-Detection/blob/master/sample-code/network/lenet_keras.py)
-
-LeNet-Keras restructure
+Network
 
 <img src="./assets/code_diagram/lenet_revised.png" width="500">
-Accuracy: 98.54%
+
 
 
 =============================
