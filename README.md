@@ -23,6 +23,7 @@ Inspired by awesome object detection, deep object detection does a easy way for 
   - [ShuffleNet-V2: 2018](#shufflenet-v2-2018)
   - [MobileNet-V3: 2019](#mobilenet-v3-2019)
   - [EfficientNet: 2019](#efficientnet-2019)
+  - [Transformer in Transformer: 2021](#transformer-in-transformer-2021)
   - [ViT-Image Recognition at Scale: 2021](#vit-image-recognition-at-scale-2021)
   - [Perceiver: 2021](#perceiver-2021)
 - [图解Object_Detection框架](#图解object_detection框架)
@@ -220,12 +221,18 @@ AlexNet-Keras restructure: 修改后的网络 val_acc: ~80%, 过拟合
 - [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf): Rethinking Model Scaling for Convolutional Neural Networks
 
 
+## Transformer in Transformer: 2021
 
+- [Transformer in Transformer](https://arxiv.org/pdf/2103.00112v1.pdf)
+
+
+- [TnT PyTorch code](https://github.com/lucidrains/transformer-in-transformer)
+  
 ## ViT-Image Recognition at Scale: 2021
 
 - [Vision Transformers](https://arxiv.org/pdf/2010.11929.pdf): An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
-[ViT image classification - Keras code](https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py)
+- [ViT image classification - Keras code](https://github.com/keras-team/keras-io/blob/master/examples/vision/image_classification_with_vision_transformer.py)
 
 
 
