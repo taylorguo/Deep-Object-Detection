@@ -7,3 +7,6 @@ dataset/.DS_Store
 *.pkl
 *.tgz
 sample-code/network/*.jpg
+.DS_Store
+.idea/*
+.vscode/*
