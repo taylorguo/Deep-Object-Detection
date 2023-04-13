@@ -10,3 +10,4 @@ sample-code/network/*.jpg
 .DS_Store
 .idea/*
 .vscode/*
+assets/block_diagram/.DS_Store
